@@ -12,25 +12,7 @@ CertiVault embodies calm confidence and academic beauty through:
 - **Trustworthy**: Professional appearance suitable for portfolio sharing
 - **Clean Design**: Custom SVG illustrations instead of heavy icon libraries
 
-## Visual Design System
 
-### Color Palette
-- Primary: Royal Blue `#2563EB`
-- Secondary: Soft Purple `#7C3AED`
-- Background: Very light gray `#F8FAFC`
-- Card: Pure white `#FFFFFF`
-- Border: Subtle gray `#E2E8F0`
-
-### Typography
-- **Display Font**: Instrument Serif (elegant, academic)
-- **Body Font**: DM Sans (clean, readable)
-- **Style**: Generous spacing, rounded corners (2xl), subtle shadows
-
-### Icon Style
-- Custom SVG line illustrations
-- Thin stroke, rounded edges
-- Monochrome with soft blue tint
-- No emoji or colorful icon packs
 
 ## Features
 
@@ -129,53 +111,6 @@ The UI is fully responsive with breakpoints for:
 
 All components adapt gracefully to different screen sizes while maintaining the minimal aesthetic.
 
-## Micro-Interactions
-
-Subtle animations enhance the user experience:
-- Card hover elevation
-- Soft fade-in page transitions
-- Gentle button press feedback
-- Smooth modal animations
-- Staggered content reveals
-
-## Customization
-
-### Changing Colors
-
-Edit the color values in `app/globals.css`:
-
-```css
-:root {
-  --color-primary: 37 99 235;    /* Royal Blue */
-  --color-secondary: 124 58 237; /* Soft Purple */
-}
-```
-
-### Modifying Fonts
-
-Update font imports in `app/layout.tsx`:
-
-```typescript
-import { Your_Font } from "next/font/google";
-```
-
-### Adding Certificate Data
-
-Edit the mock data in:
-- `components/Dashboard.tsx` (recent certificates)
-- `components/VaultPage.tsx` (all certificates)
-- `components/PortfolioPage.tsx` (selected certificates)
-
-## Design Principles
-
-1. **Whitespace is Your Friend**: Generous padding creates breathing room
-2. **Subtle Over Flashy**: Gentle animations, not distracting
-3. **Typography Hierarchy**: Clear size and weight differences
-4. **Consistent Spacing**: Use Tailwind's spacing scale
-5. **Accessible Contrasts**: Ensure text is readable
-6. **Mobile First**: Design for small screens, enhance for large
-
-## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -190,20 +125,8 @@ Edit the mock data in:
 - Lazy loading of components
 - Minimal JavaScript bundle
 
-## Future Enhancements
 
-Potential features for backend integration:
-- User authentication
-- Real file uploads
-- Certificate verification
-- Portfolio sharing links
-- PDF generation
-- Email notifications
-- Analytics dashboard
 
-## License
-
-This is a front-end UI template. Feel free to use and modify for your projects.
 
 ## Credits
 
