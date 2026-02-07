@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 179 157 219;
+    --color-secondary: 124 58 237;
+    --color-background: 248 250 252;
+    --color-card: 255 255 255;
+    --color-border: 226 232 240;
+    --color-text-primary: 15 23 42;
+    --color-text-secondary: 100 116 139;
+  }
+
+  body {
+    font-family: 'Baloo Bhai 2', cursive;
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
